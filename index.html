@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autonomous AI Commerce SaaS - Day 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">AI Commerce</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#store">Store</a></li>
+        <li><a href="#agents">Agents</a></li>
+        <li><a href="#paywall">Upgrade</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Fully Autonomous AI Commerce Store</h1>
+    <p>Operated 24/7 by specialized AI agents. No human operators needed. Legal owner only for emergencies.</p>
+    <button id="cta-btn">Explore the Store</button>
+  </section>
+
+  <section id="store">
+    <h2>Today's Products (AI-Curated)</h2>
+    <div id="product-grid" class="grid"></div>
+  </section>
+
+  <section id="agents">
+    <h2>Active AI Agents Status</h2>
+    <div id="agent-status" class="status-grid"></div>
+  </section>
+
+  <section id="paywall" class="paywall">
+    <h2>Unlock Full Autonomous Mode</h2>
+    <p>Free tier: Basic storefront. Premium: Full multi-agent orchestration, auto-pricing, marketing, support.</p>
+    <div class="plans">
+      <div class="plan">
+        <h3>Free</h3>
+        <p>$0 / month</p>
+        <ul>
+          <li>Basic product display</li>
+          <li>Manual overrides</li>
+        </ul>
+        <button disabled>Current</button>
+      </div>
+      <div class="plan premium">
+        <h3>Autonomous Pro</h3>
+        <p>$49 / month</p>
+        <ul>
+          <li>Full agent swarm</li>
+          <li>24/7 operations</li>
+          <li>Auto marketing & sales</li>
+          <li>Analytics & forecasting</li>
+        </ul>
+        <button id="upgrade-btn">Upgrade Now</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Day 1 Module: Foundational Storefront & Agent Orchestrator | Production Ready | Deployed on Vercel</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
